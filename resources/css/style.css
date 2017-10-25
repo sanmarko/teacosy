@@ -102,6 +102,7 @@ nav a {
   width: 1200px;
 }
 
+/*Tea of the month header text*/
 .tea-month {
     height: 80px;
     width: 1000px;
@@ -110,6 +111,7 @@ nav a {
     align-items: center;
   }
 
+/* Tea of the month images style */
 .featured-img {
     height: auto;
     width: 1000px;
@@ -119,20 +121,73 @@ nav a {
     align-items: center;
   }
 
-
-
+/* Tea of the month individual image style */
   .img {
     width: 300px;
     height: 200px;
     margin: 10px;
     display:flex;
-
-
   }
 
   h4 {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-
   }
+
+
+  /* Container locations*/
+
+  .locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+    background-image: url("C:/Projects/TeaCosy/resources/img-locations-background.jpg");
+    background-size: cover;
+
+    z-index: 5;
+  }
+
+
+/* Container locations
+  .loctext {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+
+    z-index: 10;
+  }*/
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: : 15px;
+  }
+
+.col {
+  height: auto;
+  width: 1200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: : 0px;
+}
+
+/* Location text box */
+.box {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  margin: 0px 20px;
+  z-index: 10;
+}
