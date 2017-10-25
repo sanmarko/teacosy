@@ -203,13 +203,11 @@ nav a {
 }
 
 /* Footer */
-.footer {
-  display: flex;
-  position: absolute;
 
-  width: 100%;
-  height: auto;
-  margin-left: 20px;
-  text-align: left;
-  z-index: 30;
+
+.tagline {
+  font-family: 'Quicksand', sans-serif;
+  color: LightSlateGrey;
+  line-height: 125px;
+  margin: -20px;
 }
