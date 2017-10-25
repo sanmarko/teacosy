@@ -1,4 +1,4 @@
-html, body {
+body {
   display: flex;
   justify-content: center;
   font-family: Helvetica;
@@ -147,7 +147,7 @@ nav a {
     width: 1200px;
     background-image: url("C:/Projects/TeaCosy/resources/img-locations-background.jpg");
     background-size: cover;
-
+    padding-bottom: 30px;
     z-index: 5;
   }
 
@@ -167,16 +167,14 @@ nav a {
   h2 {
     display: flex;
     justify-content: center;
-    margin-bottom: : 15px;
+    margin-bottom: 15px;
   }
-
+/* Locations all text box orientation*/
 .col {
-  height: auto;
+  height: 300px;
   width: 1200px;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
-  margin-top: : 0px;
 }
 
 /* Location text box */
@@ -189,5 +187,29 @@ nav a {
   flex-direction: column;
   background-color: black;
   margin: 0px 20px;
+  opacity: 1;
   z-index: 10;
+}
+
+/* Contact details */
+.contact {
+  height: 200px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0px 40px 0px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  position: absolute;
+
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+  text-align: left;
+  z-index: 30;
 }
